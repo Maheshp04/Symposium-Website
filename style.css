@@ -1,0 +1,126 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.logo {
+    width: 110%;
+    max-width: 1000;
+    height: auto;
+}
+
+
+
+h1 {
+    font-size: 3rem;
+    color: #f9a825;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Navigation Bar */
+nav {
+    background: #222;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f9a825;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Sections */
+section {
+    padding: 50px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f9a825;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.event {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+/* Registration Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+form input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background: #f9a825;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #ffeb3b;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+}
